@@ -1,4 +1,4 @@
-# Blender Distill 🥃
+# Blender Distill
 
 > **"Distilling the essence of complex .blend files."**
 
@@ -13,10 +13,7 @@ It allows you to extract logic, hierarchy, and driver dependencies from `.blend`
 ## Usage
 ```bash
 # Extract Scene Structure
-blender file.blend --background --python src/distill_structure.py
-
-# Extract Driver Logic
-blender file.blend --background --python src/distill_drivers.py
+blender file.blend --background --python src/inspect.py
 ```
 
 ## License
